@@ -1,4 +1,4 @@
-const button = document.querySelector('input[type=submit]')
+const button = document.querySelector('input[type=submit]')!
 const input1 = document.getElementById('number1')! as HTMLInputElement
 const input2 = document.getElementById('number2')! as HTMLInputElement
 
